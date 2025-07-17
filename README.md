@@ -1,6 +1,6 @@
 
 
-# 🧪 Cypress Automation - OrangeHRM
+#  Cypress Automation - OrangeHRM
 
 This project uses [Cypress](https://www.cypress.io/) to automate basic UI tests on the [OrangeHRM demo site](https://opensource-demo.orangehrmlive.com/).
 It includes tests for:
@@ -10,7 +10,7 @@ It includes tests for:
 
 ---
 
-## 📦 Installation
+##  Installation
 
 Make sure you have **Node.js** installed.
 Then, install the project dependencies:
@@ -21,7 +21,7 @@ npm install
 
 ---
 
-## ▶️ Running Tests
+##  Running Tests
 
 ### Run with Cypress Test Runner (GUI)
 
@@ -37,7 +37,7 @@ npx cypress run
 
 ---
 
-## 📌 Notes
+##  Notes
 
 * This project is for learning and practice purposes only.
 * The tests are executed on the official OrangeHRM public demo environment
