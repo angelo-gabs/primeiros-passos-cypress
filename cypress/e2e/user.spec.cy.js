@@ -22,8 +22,7 @@ describe('Orange HRM - Tests', () => {
     menuPage.useModule('myInfoModule')
 
     myInfoPage.fillFullName(chance.first(), chance.string(), chance.last())
-    myInfoPage.fillEmployeeIdInfo(chance.integer({ min: 1000000000, max: 9999999999 }), chance.integer({ min: 1000000000, max: 9999999999 }), chance.integer({ min: 1000000, max: 90000000000000 }), 
-    '2027-06-02')
+    myInfoPage.fillEmployeeIdInfo(chance.integer({ min: 1000000000, max: 9999999999 }), chance.integer({ min: 1000000000, max: 9999999999 }), chance.integer({ min: 1000000, max: 90000000000000 }), '2027-06-02')
     myInfoPage.fillStatus('Brazilian', 'Married', '2003-10-03')
     myInfoPage.saveInfomation()
 
